@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47a15119-1232-40b1-aee5-7d23de6e4d8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/layers/film_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/layers/rounding_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/layers/spectral_norm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/mask_discriminator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/modality_encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/segmentor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/_internal/_sdnet/unet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/hyperbolic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/hyperbolic/hyp_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/hyperbolic/hyp_ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/layers/film_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/layers/rounding_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/layers/spatial_transformer_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/layers/spectral_norm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/mlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/sdnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/losses/models/unet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/hyperbolic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/hyperbolic/hyp_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/hyperbolic/hyp_ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/layers/film_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/layers/rounding_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/layers/spatial_transformer_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idas/models/layers/spectral_norm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idas" beforeDir="false" afterPath="$PROJECT_DIR$/idas" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iYVP8JZASHPS5OrHFew5zcBFxS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/idas/losses" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/idas/losses" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47a15119-1232-40b1-aee5-7d23de6e4d8e" name="Default Changelist" comment="" />
+      <created>1602084485642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602084485642</updated>
+      <workItem from="1602084487432" duration="2451000" />
+      <workItem from="1602092811500" duration="4000" />
+      <workItem from="1602153590804" duration="1855000" />
+      <workItem from="1602157625539" duration="446000" />
+      <workItem from="1602158076465" duration="1898000" />
+      <workItem from="1602660126975" duration="103000" />
+      <workItem from="1603200486747" duration="134000" />
+      <workItem from="1603211487069" duration="449000" />
+      <workItem from="1603212089508" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1451" y="10" key="SettingsEditor" timestamp="1602159453341">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1451" y="10" key="SettingsEditor/0.23.1440.829/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1602159453341" />
+  </component>
+</project>
