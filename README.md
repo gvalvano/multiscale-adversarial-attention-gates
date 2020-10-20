@@ -20,7 +20,7 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2007.01
   
 ## Notes:  
   
-You can find the entire tensorflow model inside `exepriments/acdc/model.py`. This file contains the main class that is used to train on the ACDC dataset. Please, refer to the class method `define_model()` to see how to correctly build the CNN architecture. The structure of the segmentor and the discriminator alone can be found under the folder `architectures`.
+You can find the entire tensorflow model inside `expriments/acdc/model.py`. This file contains the main class that is used to train on the ACDC dataset. Please, refer to the class method `define_model()` to see how to correctly build the CNN architecture. The structure of the segmentor and the discriminator alone can be found under the folder `architectures`.
   
 Once you download the [ACDC dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) and the [scribble annotations](https://gvalvano.github.io/wss-multiscale-adversarial-attention-gates/data), you can pre-process it using the code in the file `data_interface/utils_acdc/prepare_dataset.py`. 
 You can also train with custom datasets, but you must adhere to the template required by `data_interface/interfaces/dataset_wrapper.py`, which assumes the access to the dataset is through a tensorflow dataset iterator.
