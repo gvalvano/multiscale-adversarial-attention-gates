@@ -459,33 +459,6 @@ def build_unsup_sets(root_dir):
             np.save(os.path.join(prefix, 'patient' + pt_number + '_unsup_img.npy'), img_array)
 
 
-def build_tframe_sets(root_dir):
-    # output array: [slice, rows, cols, 1, time]
-
-    suffix = '*/' if root_dir.endswith('/') else '/*/'
-    subdir_list = [d[:-1] for d in glob(root_dir + suffix)]
-
-    for subdir in subdir_list:
-        folder_name = subdir.rsplit('/')[-1]
-
-        if folder_name.startswith('patient'):
-
-            # get patient path:
-            prefix = os.path.join(root_dir, folder_name)
-            pt_number = folder_name.split('patient')[1]
-            pt_full_path = os.path.join(prefix, 'patient' + pt_number + '_4d.nii.gz')
-
-            # Pre-process image and add to the stack
-            img_array = tframe_pre_processing_pipeline(pt_full_path)
-
-            # remove empty slices:
-            img_array = remove_empty_slices(img_array)
-
-            img_array = np.expand_dims(img_array, axis=-2)
-
-            np.save(os.path.join(prefix, 'patient' + pt_number + '_tframe_img.npy'), img_array)
-
-
 def build_sup_sets(root_dir):
 
     suffix = '*/' if root_dir.endswith('/') else '/*/'
