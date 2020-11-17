@@ -610,7 +610,7 @@ def build_scribble_sets(root_dir):
                 stack_scribbles_array = np.array(stack_scribbles)
 
                 np.save(os.path.join(prefix,
-                        'patient' + pt_number + '_sup_scribble_random_walk.npy'.format(str(es).zfill(2))),
+                        'patient' + pt_number + '_sup_scribble.npy'.format(str(es).zfill(2))),
                         stack_scribbles_array)
             except:
                 # scribble not available:
@@ -622,6 +622,7 @@ def build_scribble_sets(root_dir):
 def main():
     print('\nBuilding SUPERVISED sets.')
     build_sup_sets(source_dir)
+    build_scribble_sets(source_dir)
 
     print('Building UNSUPERVISED sets.')
     build_unsup_sets(source_dir)
