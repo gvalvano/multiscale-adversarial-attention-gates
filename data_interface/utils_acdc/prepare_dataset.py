@@ -31,23 +31,10 @@ os.environ["CUDA_VISIBLE_DEVICES"] = str(1)
 N_CLASSES = 4
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-ONLY_SUPERVISED_SET = False  # this is the only set that actually changes. The first time, run this script with this
-#                            # flag set to False
-
-GENERATE_FAKE_SCRIBBLES = False   # if you want to generate synthetic scribbles from segmentation masks
-
-if ONLY_SUPERVISED_SET:
-    print_yellow_text('\nONLY_SUPERVISED_SET = {0}\n'.format(ONLY_SUPERVISED_SET))
-if GENERATE_FAKE_SCRIBBLES:
-    print_yellow_text('\nThe flag GENERATE_FAKE_SCRIBBLES will be ignored because real scribbles are '
-                      'available for this dataset')
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # data set dirs:
 
 print_yellow_text('')
-source_dir = './data/acdc_data/'
+source_dir = '../DATA/ACDC'
 
 print('\033[1;33mSource_dir = \033[0m{0}'.format(source_dir))
 
@@ -636,13 +623,11 @@ def main():
     print('\nBuilding SUPERVISED sets.')
     build_sup_sets(source_dir)
 
-    if not ONLY_SUPERVISED_SET:
+    print('Building UNSUPERVISED sets.')
+    build_unsup_sets(source_dir)
 
-        print('Building UNSUPERVISED sets.')
-        build_unsup_sets(source_dir)
-
-        print('Building DISCRIMINATOR sets.')
-        build_disc_sets(source_dir)
+    print('Building DISCRIMINATOR sets.')
+    build_disc_sets(source_dir)
 
     print_yellow_text('\nDone.\n', sep=False)
 
