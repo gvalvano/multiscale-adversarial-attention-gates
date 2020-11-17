@@ -4,7 +4,7 @@
 # In this example, we will train the model using 50% of the annotated data. Refer to `data_interface/utils_acdc/split_data`
 # for more details on the training volumes. Finally, we test on the ADCD testing volumes.
 
-dpath='../DATA/ACDC'
+dpath='DATA/ACDC'
 res_dir='.'
 dset_name='acdc'
 
@@ -37,7 +37,7 @@ for run_id_and_path in \
                              --n_sup_vols=${perc} \
                              --split_number=${split}
 
-            data_path_testing='../DATA/ACDC_testing'
+            data_path_testing='DATA/ACDC_testing'
             python -m test_on_acdc_test_set \
                             --RUN_ID="${run_id}"_${perc}_${split} \
                             --CUDA_VISIBLE_DEVICE=${CUDA_VD}  \
