@@ -14,7 +14,7 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2007.01
  title={Weakly Supervised Segmentation with Multi-scale Adversarial Attention Gates}, author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A}, journal={arXiv preprint arXiv:2007.01152}, year={2020}}  
 ```  
   
-<img src="https://github.com/gvalvano/wss-multiscale-adversarial-attention-gates/blob/master/images/banner.png" alt="mscale_aags" width="600"/>
+<img src="https://github.com/vios-s/multiscale-adversarial-attention-gates/blob/master/images/banner.png" alt="mscale_aags" width="600"/>
 
 ----------------------------------  
   
@@ -22,7 +22,7 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2007.01
   
 You can find the entire tensorflow model inside `expriments/acdc/model.py`. This file contains the main class that is used to train on the ACDC dataset. Please, refer to the class method `define_model()` to see how to correctly build the CNN architecture. The structure of the segmentor and the discriminator alone can be found under the folder `architectures`.
   
-Once you download the [ACDC dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) and the [scribble annotations](https://gvalvano.github.io/wss-multiscale-adversarial-attention-gates/data), you can pre-process it using the code in the file `data_interface/utils_acdc/prepare_dataset.py`. 
+Once you download the [ACDC dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) and the [scribble annotations](https://vios-s.github.io/multiscale-adversarial-attention-gates/data), you can pre-process it using the code in the file `data_interface/utils_acdc/prepare_dataset.py`. 
 You can also train with custom datasets, but you must adhere to the template required by `data_interface/interfaces/dataset_wrapper.py`, which assumes the access to the dataset is through a tensorflow dataset iterator.
 
 Once preprocessed the data, you can start the training running the command:  
