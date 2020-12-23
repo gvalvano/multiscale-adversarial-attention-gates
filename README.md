@@ -5,7 +5,7 @@ Code for the paper:
   
 > Valvano G., Leo A. and Tsaftaris S. A. (2020), *Weakly Supervised Segmentation with Multi-scale Adversarial Attention Gates*.  
   
-The official project page is [here](https://gvalvano.github.io/wss-multiscale-adversarial-attention-gates).  
+The official project page is [here](https://vios-s.github.io/multiscale-adversarial-attention-gates/).  
 An online version of the paper can be found [here](https://arxiv.org/abs/2007.01152).  
 
 ## Citation:  
