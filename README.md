@@ -13,7 +13,8 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2007.01
 @article{valvano2020weakly,  
  title={Weakly Supervised Segmentation with Multi-scale Adversarial Attention Gates}, 
  author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A}, 
- journal={arXiv preprint arXiv:2007.01152}, year={2020}}  
+ journal={arXiv preprint arXiv:2007.01152}, year={2020}
+}  
 ```  
   
 <img src="https://github.com/vios-s/multiscale-adversarial-attention-gates/blob/main/images/banner.png" alt="mscale_aags" width="600"/>
