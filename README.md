@@ -3,18 +3,21 @@
   
 Code for the paper:  
   
-> Valvano G., Leo A. and Tsaftaris S. A. (2020), *Weakly Supervised Segmentation with Multi-scale Adversarial Attention Gates*.  
+> Valvano G., Leo A. and Tsaftaris S. A. (2021), *Learning to Segment from Scribbles using Multi-scale Adversarial Attention Gates*.  
   
-The official project page is [here](https://vios-s.github.io/multiscale-adversarial-attention-gates/).  
+The official project page is [here](https://vios-s.github.io/multiscale-adversarial-attention-gates).  
 An online version of the paper can be found [here](https://arxiv.org/abs/2007.01152).  
 
 ## Citation:  
 ```  
-@article{valvano2020weakly,  
-     title={Weakly Supervised Segmentation with Multi-scale Adversarial Attention Gates}, 
-     author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A}, 
-     journal={arXiv preprint arXiv:2007.01152}, year={2020}
-}  
+@misc{valvano2021learning,
+      title={Learning to Segment from Scribbles using Multi-scale Adversarial Attention Gates}, 
+      author={Gabriele Valvano and Andrea Leo and Sotirios A. Tsaftaris},
+      year={2021},
+      eprint={2007.01152},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```  
   
 <img src="https://github.com/vios-s/multiscale-adversarial-attention-gates/blob/main/images/banner.png" alt="mscale_aags" width="600"/>
