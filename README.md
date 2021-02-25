@@ -10,11 +10,13 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2007.01
 
 ## Citation:  
 ```  
-@article{valvano2020weakly,
-  title={Weakly Supervised Segmentation with Multi-scale Adversarial Attention Gates},
-  author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A},
-  journal={arXiv preprint arXiv:2007.01152},
-  year={2020}
+@misc{valvano2021learning,
+      title={Learning to Segment from Scribbles using Multi-scale Adversarial Attention Gates}, 
+      author={Gabriele Valvano and Andrea Leo and Sotirios A. Tsaftaris},
+      year={2021},
+      eprint={2007.01152},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```  
   
