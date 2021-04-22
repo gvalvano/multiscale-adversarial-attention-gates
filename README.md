@@ -18,7 +18,8 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2007.01
   volume={},
   number={},
   pages={1-1},
-  doi={10.1109/TMI.2021.3069634}}
+  doi={10.1109/TMI.2021.3069634}
+}
 ```  
   
 <img src="https://github.com/vios-s/multiscale-adversarial-attention-gates/blob/main/images/banner.png" alt="mscale_aags" width="600"/>
