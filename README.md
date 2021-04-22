@@ -10,13 +10,15 @@ An online version of the paper can be found [here](https://arxiv.org/abs/2007.01
 
 ## Citation:  
 ```  
-@article{valvano2021learning,
-  title={Learning to Segment from Scribbles using Multi-scale Adversarial Attention Gates},
-  author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A},
-  journal={IEEE Transactions on Medical Imaging},
+@ARTICLE{9389796,
+  author={Valvano, Gabriele and Leo, Andrea and Tsaftaris, Sotirios A.},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Learning to Segment from Scribbles using Multi-scale Adversarial Attention Gates}, 
   year={2021},
-  publisher={IEEE}
-}
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2021.3069634}}
 ```  
   
 <img src="https://github.com/vios-s/multiscale-adversarial-attention-gates/blob/main/images/banner.png" alt="mscale_aags" width="600"/>
