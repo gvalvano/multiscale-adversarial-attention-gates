@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Valvano"
+  given-names: "Gabriele"
+- family-names: "Leo"
+  given-names: "Andrea"
+- family-names: "Tsaftaris"
+  given-names: "Sotirios A."
+title: "Learning to Segment from Scribbles using Multi-scale Adversarial Attention Gates"
+version: 1.0.0
+doi: 10.1109/TMI.2021.3069634
+date-released: 2021
+url: "https://github.com/gvalvano/multiscale-adversarial-attention-gates"
